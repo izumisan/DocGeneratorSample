@@ -1,0 +1,14 @@
+syntax = "proto3";
+package protoc.gen.doc.sample;
+
+import "Foo.proto";
+import "Bar.proto";
+
+/*
+    Foo-Bar メッセージ
+*/
+message FooBar
+{
+    Foo foo = 1;  // Fooオブジェクト
+    Bar bar = 2;  // Barオブジェクト
+}

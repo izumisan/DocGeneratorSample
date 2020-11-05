@@ -1,0 +1,17 @@
+syntax = "proto3";
+package protoc.gen.doc.sample;
+
+/**
+ * Foo message description
+ */
+message Foo
+{
+    // FooID
+    int32 id = 1;  
+    // Foo名称
+    string name = 2;  
+    // Foo値
+    double value = 3;
+    // Fooフラグ
+    bool flag = 4;  
+}

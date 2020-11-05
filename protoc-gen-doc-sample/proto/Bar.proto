@@ -1,0 +1,11 @@
+syntax = "proto3";
+package protoc.gen.doc.sample;
+
+// Barメッセージの説明
+message Bar
+{
+    int32 id = 1;  // Bar ID
+    string name = 2;  // Bar名称
+    double value = 3;  // Bar値
+    bool flag = 4;  /// Barフラグ
+}
